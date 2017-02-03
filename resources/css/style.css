@@ -5,18 +5,16 @@ body {
 .heading {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
   background-position: 45%;
+  font-family: Helvetica;
 }
 
 .heading h1 {
-  font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
-
 }
 
-.heading p {
-  font-family: Helvetica;
+.heading a {
   font-size: 18px;
   color: white;
 }
@@ -50,4 +48,9 @@ footer {
   text-align: left;
   color: white;
   background-color: dimgray;
+}
+
+footer a {
+  font-size: 18px;
+  color: white
 }
